@@ -11,7 +11,7 @@ struct ProfileWithYearButtonView: View {
     var body: some View {
         HStack {
             Text("2565")
-                .font(.title2)
+                .font(AppFont.apply(weight: .medium, size: .small))
                 .foregroundColor(Color.white)
             
             ZStack {

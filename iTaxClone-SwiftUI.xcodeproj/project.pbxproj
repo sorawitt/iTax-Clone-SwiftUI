@@ -20,6 +20,15 @@
 		2224F5CF289FA162006D4B60 /* HomeNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2224F5CE289FA162006D4B60 /* HomeNavBarView.swift */; };
 		2224F5D2289FA31D006D4B60 /* ProfileWithYearButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2224F5D1289FA31D006D4B60 /* ProfileWithYearButtonView.swift */; };
 		2224F5D5289FCC8F006D4B60 /* RefundTaxMoneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2224F5D4289FCC8F006D4B60 /* RefundTaxMoneyView.swift */; };
+		2224F5DF289FD85F006D4B60 /* IBMPlexSansThai-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2224F5D7289FD85F006D4B60 /* IBMPlexSansThai-ExtraLight.ttf */; };
+		2224F5E0289FD85F006D4B60 /* IBMPlexSansThai-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2224F5D8289FD85F006D4B60 /* IBMPlexSansThai-SemiBold.ttf */; };
+		2224F5E1289FD85F006D4B60 /* IBMPlexSansThai-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2224F5D9289FD85F006D4B60 /* IBMPlexSansThai-Bold.ttf */; };
+		2224F5E2289FD85F006D4B60 /* IBMPlexSansThai-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2224F5DA289FD85F006D4B60 /* IBMPlexSansThai-Light.ttf */; };
+		2224F5E3289FD85F006D4B60 /* IBMPlexSansThai-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2224F5DB289FD85F006D4B60 /* IBMPlexSansThai-Thin.ttf */; };
+		2224F5E4289FD85F006D4B60 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2224F5DC289FD85F006D4B60 /* OFL.txt */; };
+		2224F5E5289FD85F006D4B60 /* IBMPlexSansThai-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2224F5DD289FD85F006D4B60 /* IBMPlexSansThai-Regular.ttf */; };
+		2224F5E6289FD85F006D4B60 /* IBMPlexSansThai-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2224F5DE289FD85F006D4B60 /* IBMPlexSansThai-Medium.ttf */; };
+		2224F5EA289FDE4D006D4B60 /* AppFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2224F5E9289FDE4D006D4B60 /* AppFont.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +46,16 @@
 		2224F5CE289FA162006D4B60 /* HomeNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavBarView.swift; sourceTree = "<group>"; };
 		2224F5D1289FA31D006D4B60 /* ProfileWithYearButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileWithYearButtonView.swift; sourceTree = "<group>"; };
 		2224F5D4289FCC8F006D4B60 /* RefundTaxMoneyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefundTaxMoneyView.swift; sourceTree = "<group>"; };
+		2224F5D7289FD85F006D4B60 /* IBMPlexSansThai-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSansThai-ExtraLight.ttf"; sourceTree = "<group>"; };
+		2224F5D8289FD85F006D4B60 /* IBMPlexSansThai-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSansThai-SemiBold.ttf"; sourceTree = "<group>"; };
+		2224F5D9289FD85F006D4B60 /* IBMPlexSansThai-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSansThai-Bold.ttf"; sourceTree = "<group>"; };
+		2224F5DA289FD85F006D4B60 /* IBMPlexSansThai-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSansThai-Light.ttf"; sourceTree = "<group>"; };
+		2224F5DB289FD85F006D4B60 /* IBMPlexSansThai-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSansThai-Thin.ttf"; sourceTree = "<group>"; };
+		2224F5DC289FD85F006D4B60 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		2224F5DD289FD85F006D4B60 /* IBMPlexSansThai-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSansThai-Regular.ttf"; sourceTree = "<group>"; };
+		2224F5DE289FD85F006D4B60 /* IBMPlexSansThai-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSansThai-Medium.ttf"; sourceTree = "<group>"; };
+		2224F5E7289FDC07006D4B60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2224F5E9289FDE4D006D4B60 /* AppFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFont.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +88,8 @@
 		2224F59D289F77ED006D4B60 /* iTaxClone-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				2224F5E7289FDC07006D4B60 /* Info.plist */,
+				2224F5E8289FDD4C006D4B60 /* Common */,
 				2224F5AC289F7C2A006D4B60 /* Application */,
 				2224F5AD289F7C34006D4B60 /* Domain */,
 				2224F5AE289F7C3E006D4B60 /* Presentation */,
@@ -195,6 +216,7 @@
 		2224F5B9289F7CF1006D4B60 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				2224F5D6289FD84E006D4B60 /* Fonts */,
 				2224F5A2289F77F2006D4B60 /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -252,6 +274,29 @@
 				2224F5D4289FCC8F006D4B60 /* RefundTaxMoneyView.swift */,
 			);
 			path = RefundTaxMoneyView;
+			sourceTree = "<group>";
+		};
+		2224F5D6289FD84E006D4B60 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2224F5D9289FD85F006D4B60 /* IBMPlexSansThai-Bold.ttf */,
+				2224F5D7289FD85F006D4B60 /* IBMPlexSansThai-ExtraLight.ttf */,
+				2224F5DA289FD85F006D4B60 /* IBMPlexSansThai-Light.ttf */,
+				2224F5DE289FD85F006D4B60 /* IBMPlexSansThai-Medium.ttf */,
+				2224F5DD289FD85F006D4B60 /* IBMPlexSansThai-Regular.ttf */,
+				2224F5D8289FD85F006D4B60 /* IBMPlexSansThai-SemiBold.ttf */,
+				2224F5DB289FD85F006D4B60 /* IBMPlexSansThai-Thin.ttf */,
+				2224F5DC289FD85F006D4B60 /* OFL.txt */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		2224F5E8289FDD4C006D4B60 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2224F5E9289FDE4D006D4B60 /* AppFont.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,7 +357,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2224F5E2289FD85F006D4B60 /* IBMPlexSansThai-Light.ttf in Resources */,
+				2224F5E5289FD85F006D4B60 /* IBMPlexSansThai-Regular.ttf in Resources */,
+				2224F5E0289FD85F006D4B60 /* IBMPlexSansThai-SemiBold.ttf in Resources */,
+				2224F5E1289FD85F006D4B60 /* IBMPlexSansThai-Bold.ttf in Resources */,
 				2224F5A6289F77F2006D4B60 /* Preview Assets.xcassets in Resources */,
+				2224F5DF289FD85F006D4B60 /* IBMPlexSansThai-ExtraLight.ttf in Resources */,
+				2224F5E6289FD85F006D4B60 /* IBMPlexSansThai-Medium.ttf in Resources */,
+				2224F5E3289FD85F006D4B60 /* IBMPlexSansThai-Thin.ttf in Resources */,
+				2224F5E4289FD85F006D4B60 /* OFL.txt in Resources */,
 				2224F5A3289F77F2006D4B60 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,6 +387,7 @@
 				2224F5C4289F88DC006D4B60 /* TabBarItem.swift in Sources */,
 				2224F5C7289F9B35006D4B60 /* HomeView.swift in Sources */,
 				2224F5BE289F7FF4006D4B60 /* CustomTabBarView.swift in Sources */,
+				2224F5EA289FDE4D006D4B60 /* AppFont.swift in Sources */,
 				2224F5C0289F838C006D4B60 /* CustomTabBarContainerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -466,6 +520,7 @@
 				DEVELOPMENT_TEAM = 27FY64RUCC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iTaxClone-SwiftUI/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -495,6 +550,7 @@
 				DEVELOPMENT_TEAM = 27FY64RUCC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iTaxClone-SwiftUI/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

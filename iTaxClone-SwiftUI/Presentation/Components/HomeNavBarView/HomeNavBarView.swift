@@ -14,10 +14,10 @@ struct HomeNavBarView: View {
             Image(uiImage: logo)
                 .resizable()
                 .scaledToFit()
-                .frame(width: 32, height: 32)
+                .frame(width: 22, height: 22)
                 .foregroundColor(Color("green-primary"))
             Text("iTax")
-                .font(.title)
+                .font(AppFont.apply(weight: .medium, size: .medium))
                 .bold()
                 .foregroundColor(Color.white)
             
