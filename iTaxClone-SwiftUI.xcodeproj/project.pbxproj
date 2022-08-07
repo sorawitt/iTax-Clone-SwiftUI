@@ -17,9 +17,9 @@
 		2224F5C2289F86C3006D4B60 /* TabBarItemPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2224F5C1289F86C3006D4B60 /* TabBarItemPreferenceKey.swift */; };
 		2224F5C4289F88DC006D4B60 /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2224F5C3289F88DC006D4B60 /* TabBarItem.swift */; };
 		2224F5C7289F9B35006D4B60 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2224F5C6289F9B35006D4B60 /* HomeView.swift */; };
-		2224F5CB289FA12D006D4B60 /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2224F5CA289FA12D006D4B60 /* HomeHeaderView.swift */; };
 		2224F5CF289FA162006D4B60 /* HomeNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2224F5CE289FA162006D4B60 /* HomeNavBarView.swift */; };
 		2224F5D2289FA31D006D4B60 /* ProfileWithYearButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2224F5D1289FA31D006D4B60 /* ProfileWithYearButtonView.swift */; };
+		2224F5D5289FCC8F006D4B60 /* RefundTaxMoneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2224F5D4289FCC8F006D4B60 /* RefundTaxMoneyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,9 +34,9 @@
 		2224F5C1289F86C3006D4B60 /* TabBarItemPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemPreferenceKey.swift; sourceTree = "<group>"; };
 		2224F5C3289F88DC006D4B60 /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
 		2224F5C6289F9B35006D4B60 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		2224F5CA289FA12D006D4B60 /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
 		2224F5CE289FA162006D4B60 /* HomeNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavBarView.swift; sourceTree = "<group>"; };
 		2224F5D1289FA31D006D4B60 /* ProfileWithYearButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileWithYearButtonView.swift; sourceTree = "<group>"; };
+		2224F5D4289FCC8F006D4B60 /* RefundTaxMoneyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefundTaxMoneyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -223,19 +223,11 @@
 		2224F5C8289FA116006D4B60 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				2224F5D3289FAA00006D4B60 /* RefundTaxMoneyView */,
 				2224F5D0289FA301006D4B60 /* ProfileWithYearButtonView */,
 				2224F5CC289FA141006D4B60 /* HomeNavBarView */,
-				2224F5C9289FA11F006D4B60 /* HomeHeaderView */,
 			);
 			path = Components;
-			sourceTree = "<group>";
-		};
-		2224F5C9289FA11F006D4B60 /* HomeHeaderView */ = {
-			isa = PBXGroup;
-			children = (
-				2224F5CA289FA12D006D4B60 /* HomeHeaderView.swift */,
-			);
-			path = HomeHeaderView;
 			sourceTree = "<group>";
 		};
 		2224F5CC289FA141006D4B60 /* HomeNavBarView */ = {
@@ -252,6 +244,14 @@
 				2224F5D1289FA31D006D4B60 /* ProfileWithYearButtonView.swift */,
 			);
 			path = ProfileWithYearButtonView;
+			sourceTree = "<group>";
+		};
+		2224F5D3289FAA00006D4B60 /* RefundTaxMoneyView */ = {
+			isa = PBXGroup;
+			children = (
+				2224F5D4289FCC8F006D4B60 /* RefundTaxMoneyView.swift */,
+			);
+			path = RefundTaxMoneyView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -327,9 +327,9 @@
 				2224F5A1289F77ED006D4B60 /* ContentView.swift in Sources */,
 				2224F5CF289FA162006D4B60 /* HomeNavBarView.swift in Sources */,
 				2224F59F289F77ED006D4B60 /* iTaxClone_SwiftUIApp.swift in Sources */,
+				2224F5D5289FCC8F006D4B60 /* RefundTaxMoneyView.swift in Sources */,
 				2224F5D2289FA31D006D4B60 /* ProfileWithYearButtonView.swift in Sources */,
 				2224F5BC289F7F94006D4B60 /* AppTabBarView.swift in Sources */,
-				2224F5CB289FA12D006D4B60 /* HomeHeaderView.swift in Sources */,
 				2224F5C2289F86C3006D4B60 /* TabBarItemPreferenceKey.swift in Sources */,
 				2224F5C4289F88DC006D4B60 /* TabBarItem.swift in Sources */,
 				2224F5C7289F9B35006D4B60 /* HomeView.swift in Sources */,

@@ -16,6 +16,9 @@ struct HomeView: View {
                     VStack {
                         HomeNavBarView()
                             .padding()
+                        
+                        RefundTaxMoneyView()
+                            .padding(.top, 24)
                     }
                 }
             }
