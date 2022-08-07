@@ -11,6 +11,11 @@
 		2224F5A1289F77ED006D4B60 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2224F5A0289F77ED006D4B60 /* ContentView.swift */; };
 		2224F5A3289F77F2006D4B60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2224F5A2289F77F2006D4B60 /* Assets.xcassets */; };
 		2224F5A6289F77F2006D4B60 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2224F5A5289F77F2006D4B60 /* Preview Assets.xcassets */; };
+		2224F5BC289F7F94006D4B60 /* AppTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2224F5BB289F7F94006D4B60 /* AppTabBarView.swift */; };
+		2224F5BE289F7FF4006D4B60 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2224F5BD289F7FF4006D4B60 /* CustomTabBarView.swift */; };
+		2224F5C0289F838C006D4B60 /* CustomTabBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2224F5BF289F838C006D4B60 /* CustomTabBarContainerView.swift */; };
+		2224F5C2289F86C3006D4B60 /* TabBarItemPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2224F5C1289F86C3006D4B60 /* TabBarItemPreferenceKey.swift */; };
+		2224F5C4289F88DC006D4B60 /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2224F5C3289F88DC006D4B60 /* TabBarItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		2224F5A0289F77ED006D4B60 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2224F5A2289F77F2006D4B60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2224F5A5289F77F2006D4B60 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2224F5BB289F7F94006D4B60 /* AppTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBarView.swift; sourceTree = "<group>"; };
+		2224F5BD289F7FF4006D4B60 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
+		2224F5BF289F838C006D4B60 /* CustomTabBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarContainerView.swift; sourceTree = "<group>"; };
+		2224F5C1289F86C3006D4B60 /* TabBarItemPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemPreferenceKey.swift; sourceTree = "<group>"; };
+		2224F5C3289F88DC006D4B60 /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +61,12 @@
 		2224F59D289F77ED006D4B60 /* iTaxClone-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				2224F59E289F77ED006D4B60 /* iTaxClone_SwiftUIApp.swift */,
-				2224F5A0289F77ED006D4B60 /* ContentView.swift */,
-				2224F5A2289F77F2006D4B60 /* Assets.xcassets */,
+				2224F5AC289F7C2A006D4B60 /* Application */,
+				2224F5AD289F7C34006D4B60 /* Domain */,
+				2224F5AE289F7C3E006D4B60 /* Presentation */,
+				2224F5AF289F7C49006D4B60 /* Data */,
+				2224F5B0289F7C51006D4B60 /* Infrastructure */,
+				2224F5B9289F7CF1006D4B60 /* Resources */,
 				2224F5A4289F77F2006D4B60 /* Preview Content */,
 			);
 			path = "iTaxClone-SwiftUI";
@@ -65,6 +78,128 @@
 				2224F5A5289F77F2006D4B60 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2224F5AC289F7C2A006D4B60 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				2224F59E289F77ED006D4B60 /* iTaxClone_SwiftUIApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		2224F5AD289F7C34006D4B60 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				2224F5B5289F7C8A006D4B60 /* Entities */,
+				2224F5B6289F7C91006D4B60 /* UseCases */,
+				2224F5B7289F7C9A006D4B60 /* Interfaces */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		2224F5AE289F7C3E006D4B60 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				2224F5A0289F77ED006D4B60 /* ContentView.swift */,
+				2224F5BA289F7E1E006D4B60 /* AppTabBarView */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		2224F5AF289F7C49006D4B60 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				2224F5B2289F7C65006D4B60 /* Repositories */,
+				2224F5B3289F7C70006D4B60 /* Network */,
+				2224F5B4289F7C76006D4B60 /* PersistentStorages */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		2224F5B0289F7C51006D4B60 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				2224F5B1289F7C5E006D4B60 /* Network */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		2224F5B1289F7C5E006D4B60 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		2224F5B2289F7C65006D4B60 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		2224F5B3289F7C70006D4B60 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		2224F5B4289F7C76006D4B60 /* PersistentStorages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PersistentStorages;
+			sourceTree = "<group>";
+		};
+		2224F5B5289F7C8A006D4B60 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		2224F5B6289F7C91006D4B60 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		2224F5B7289F7C9A006D4B60 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				2224F5B8289F7CB4006D4B60 /* Repositories */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		2224F5B8289F7CB4006D4B60 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		2224F5B9289F7CF1006D4B60 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2224F5A2289F77F2006D4B60 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2224F5BA289F7E1E006D4B60 /* AppTabBarView */ = {
+			isa = PBXGroup;
+			children = (
+				2224F5BB289F7F94006D4B60 /* AppTabBarView.swift */,
+				2224F5BF289F838C006D4B60 /* CustomTabBarContainerView.swift */,
+				2224F5BD289F7FF4006D4B60 /* CustomTabBarView.swift */,
+				2224F5C1289F86C3006D4B60 /* TabBarItemPreferenceKey.swift */,
+				2224F5C3289F88DC006D4B60 /* TabBarItem.swift */,
+			);
+			path = AppTabBarView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +274,11 @@
 			files = (
 				2224F5A1289F77ED006D4B60 /* ContentView.swift in Sources */,
 				2224F59F289F77ED006D4B60 /* iTaxClone_SwiftUIApp.swift in Sources */,
+				2224F5BC289F7F94006D4B60 /* AppTabBarView.swift in Sources */,
+				2224F5C2289F86C3006D4B60 /* TabBarItemPreferenceKey.swift in Sources */,
+				2224F5C4289F88DC006D4B60 /* TabBarItem.swift in Sources */,
+				2224F5BE289F7FF4006D4B60 /* CustomTabBarView.swift in Sources */,
+				2224F5C0289F838C006D4B60 /* CustomTabBarContainerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
