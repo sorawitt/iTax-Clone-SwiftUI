@@ -29,7 +29,7 @@ enum TabBarItem: Hashable {
     
     var color: Color {
         switch self {
-        case .home: return .red
+        case .home: return Color("green-primary")
         case .favorites: return .green
         case .profile: return .blue
         }
